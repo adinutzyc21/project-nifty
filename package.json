@@ -6,6 +6,7 @@
         "@types/node": "^20.4.4",
         "@types/react": "^18.2.15",
         "@types/react-dom": "^18.2.7",
+        "npm-watch": "^0.11.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-scripts": "^5.0.1",
@@ -17,7 +18,16 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "watch": "npm-watch"
+    },
+    "watch": {
+        "build": {
+            "patterns": [
+                "src"
+            ],
+            "extensions": "js, jsx, ts, tsx"
+        }
     },
     "eslintConfig": {
         "extends": [
