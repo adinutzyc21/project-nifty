@@ -59,7 +59,8 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@types/chrome": "^0.0.242"
   },
   "scripts": {
     "start": "node scripts/start.js",
