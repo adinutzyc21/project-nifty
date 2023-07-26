@@ -1,25 +1,16 @@
 {
-  "short_name": "Nifty App",
-  "name": "Nifty App - Find the most relevant part of YouTube videos",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+    "short_name": "Nifty App",
+    "name": "Nifty App - Find the most relevant part of YouTube videos",
+    "description": "Get the most relevant YouTube videos for your handy projects",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "action": {},
+    "icons": {
+      "16": "logo16.png",
+      "32": "logo32.png",
+      "180": "logo180.png",
+      "192": "logo192.png",
+      "512": "logo512.png"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
+  }
+  
