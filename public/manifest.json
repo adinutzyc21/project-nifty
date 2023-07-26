@@ -12,9 +12,10 @@
       {
         "matches": ["https://*/*"],
         "css": ["/static/css/app.css", "/static/css/content.css"],
-        "js": ["/static/js/content.js"]
+        "js": ["/static/js/content.js", "content.js"]
       }
     ],
+    "permissions": ["activeTab"],
     "icons": {
       "16": "logo16.png",
       "32": "logo32.png",

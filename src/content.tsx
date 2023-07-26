@@ -5,7 +5,7 @@ import "./content.css";
 class Main extends React.Component {
     render() {
         return (
-            <div className={'my-extension'}>
+            <div className={'project-nifty'}>
                 <h1>Hello world - My first Extension</h1>
             </div>
         )
@@ -13,23 +13,7 @@ class Main extends React.Component {
 }
 
 const app = document.createElement('div');
-app.id = "my-extension-root";
+app.id = "project-nifty-root";
 document.body.appendChild(app);
 ReactDOM.render(<Main />, app);
-
 app.style.display = "none";
-chrome.runtime.onMessage.addListener(
-    function (request: any, sender: any, sendResponse: any) {
-        if (request.message === "toggleExtension") {
-            toggle();
-        }
-    }
-);
-
-function toggle() {
-    if (app.style.display === "none") {
-        app.style.display = "block";
-    } else {
-        app.style.display = "none";
-    }
-}
