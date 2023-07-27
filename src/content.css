@@ -1,3 +1,5 @@
+/* This file styles elements that are inside iframe to prevent css leakage to host page*/
 .project-nifty {
     padding: 20px;
+    background-color: aliceblue;
 }
