@@ -11,6 +11,7 @@ function messagesFromReactAppListener(msg, sender, sendResponse) {
                 document.getElementById("project-nifty-root");
             if (extensionIframe.style.display === "none") {
                 extensionIframe.style.display = "block";
+                extensionIframe.click();
             } else {
                 extensionIframe.style.display = "none";
             }
